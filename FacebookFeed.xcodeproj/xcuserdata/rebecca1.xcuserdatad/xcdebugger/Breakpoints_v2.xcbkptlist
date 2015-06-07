@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "FacebookFeed/FeedViewController.swift"
+            timestampString = "455158302.031016"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "21"
+            endingLineNumber = "21"
+            landmarkName = "FeedViewController"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "FacebookFeed.FeedViewController.scrollView.getter : weak Swift.ImplicitlyUnwrappedOptional&lt;ObjectiveC.UIScrollView&gt;"
+                  moduleName = "FacebookFeed"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/rebecca1/Desktop/FacebookFeed/FacebookFeed/FeedViewController.swift"
+                  timestampString = "455156963.858764"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "12">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "FacebookFeed.FeedViewController.scrollView.setter : weak Swift.ImplicitlyUnwrappedOptional&lt;ObjectiveC.UIScrollView&gt;"
+                  moduleName = "FacebookFeed"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/rebecca1/Desktop/FacebookFeed/FacebookFeed/FeedViewController.swift"
+                  timestampString = "455156963.862461"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "16">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "FacebookFeed.FeedViewController.scrollView.materializeForSet : weak Swift.ImplicitlyUnwrappedOptional&lt;ObjectiveC.UIScrollView&gt;"
+                  moduleName = "FacebookFeed"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/rebecca1/Desktop/FacebookFeed/FacebookFeed/FeedViewController.swift"
+                  timestampString = "455156963.862606"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "16">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "FacebookFeed.FeedViewController.init (FacebookFeed.FeedViewController.Type)(nibName : Swift.Optional&lt;Swift.String&gt;, bundle : Swift.Optional&lt;ObjectiveC.NSBundle&gt;) -&gt; FacebookFeed.FeedViewController"
+                  moduleName = "FacebookFeed"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/rebecca1/Desktop/FacebookFeed/FacebookFeed/FeedViewController.swift"
+                  timestampString = "455156963.862719"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "18"
+                  endingLineNumber = "18"
+                  offsetFromSymbolStart = "365">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "FacebookFeed.FeedViewController.init (FacebookFeed.FeedViewController.Type)(coder : ObjectiveC.NSCoder) -&gt; FacebookFeed.FeedViewController"
+                  moduleName = "FacebookFeed"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/rebecca1/Desktop/FacebookFeed/FacebookFeed/FeedViewController.swift"
+                  timestampString = "455156963.86282"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "18"
+                  endingLineNumber = "18"
+                  offsetFromSymbolStart = "300">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "FacebookFeed/PhotoViewController.swift"
+            timestampString = "455320606.410977"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "29"
+            endingLineNumber = "29"
+            landmarkName = "viewDidLoad()"
+            landmarkType = "5">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

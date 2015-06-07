@@ -1,25 +1,180 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6211" systemVersion="14A298i" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="vXZ-lx-hvc">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="7702" systemVersion="14B25" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" initialViewController="vXZ-lx-hvc">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6204"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7701"/>
     </dependencies>
     <scenes>
-        <!--View Controller-->
+        <!--Feed View Controller-->
         <scene sceneID="ufC-wZ-h7g">
             <objects>
-                <viewController id="vXZ-lx-hvc" customClass="ViewController" customModuleProvider="target" sceneMemberID="viewController">
-                    <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="jyV-Pf-zRb"/>
-                        <viewControllerLayoutGuide type="bottom" id="2fi-mo-0CV"/>
-                    </layoutGuides>
+                <viewController id="vXZ-lx-hvc" customClass="FeedViewController" customModule="FacebookFeed" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="kh9-bI-dsS">
-                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" id="PGn-HT-Spd">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" id="aIB-JZ-t8o" userLabel="Feed &amp; images">
+                                        <rect key="frame" x="0.0" y="0.0" width="320" height="1438"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <subviews>
+                                            <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" image="home_feed" id="krk-2u-gdX">
+                                                <rect key="frame" x="0.0" y="0.0" width="320" height="1438"/>
+                                                <autoresizingMask key="autoresizingMask"/>
+                                            </imageView>
+                                            <imageView clipsSubviews="YES" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="wedding3" id="Jrc-wP-2PI">
+                                                <rect key="frame" x="161" y="83" width="154" height="104"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <gestureRecognizers/>
+                                                <connections>
+                                                    <outletCollection property="gestureRecognizers" destination="Pl8-Vs-MFT" appends="YES" id="Co7-Zc-hyG"/>
+                                                </connections>
+                                            </imageView>
+                                            <imageView clipsSubviews="YES" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="wedding4" id="q5w-CS-b81">
+                                                <rect key="frame" x="163" y="189" width="150" height="103"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <gestureRecognizers/>
+                                                <connections>
+                                                    <outletCollection property="gestureRecognizers" destination="Rcp-9U-L3h" appends="YES" id="pLP-fb-ixY"/>
+                                                </connections>
+                                            </imageView>
+                                            <imageView clipsSubviews="YES" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="wedding5" id="dqv-b8-FoS">
+                                                <rect key="frame" x="161" y="294" width="154" height="104"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <gestureRecognizers/>
+                                                <connections>
+                                                    <outletCollection property="gestureRecognizers" destination="3iV-U4-V0r" appends="YES" id="c2J-XO-HEj"/>
+                                                </connections>
+                                            </imageView>
+                                            <imageView clipsSubviews="YES" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="wedding1" id="nQG-Sh-KB8">
+                                                <rect key="frame" x="4" y="83" width="156" height="155"/>
+                                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxX="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                                                <gestureRecognizers/>
+                                                <connections>
+                                                    <outletCollection property="gestureRecognizers" destination="syC-nn-PlX" appends="YES" id="vLg-TW-TC9"/>
+                                                </connections>
+                                            </imageView>
+                                            <imageView clipsSubviews="YES" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="wedding2" id="ku8-wd-y8T">
+                                                <rect key="frame" x="4" y="241" width="156" height="155"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <gestureRecognizers/>
+                                                <connections>
+                                                    <outletCollection property="gestureRecognizers" destination="mS4-te-bLq" appends="YES" id="A88-eX-OJ7"/>
+                                                </connections>
+                                            </imageView>
+                                        </subviews>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                    </view>
+                                </subviews>
+                            </scrollView>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
+                    <connections>
+                        <outlet property="feedView" destination="aIB-JZ-t8o" id="fNV-OT-6BI"/>
+                        <outlet property="scrollView" destination="PGn-HT-Spd" id="Ygl-BS-t7g"/>
+                        <outlet property="wedding1View" destination="nQG-Sh-KB8" id="cb1-GW-keQ"/>
+                        <outlet property="wedding2View" destination="ku8-wd-y8T" id="bNz-e6-lPc"/>
+                        <outlet property="wedding3View" destination="Jrc-wP-2PI" id="Uk6-vQ-B6u"/>
+                        <outlet property="wedding4View" destination="q5w-CS-b81" id="r8R-xh-kZv"/>
+                        <outlet property="wedding5View" destination="dqv-b8-FoS" id="Ubk-pp-q0e"/>
+                        <segue destination="e3P-Gm-cZj" kind="custom" identifier="photoSegue" id="feT-kW-WLC"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
+                <tapGestureRecognizer id="Pl8-Vs-MFT">
+                    <connections>
+                        <action selector="didTapPhoto:" destination="vXZ-lx-hvc" id="JIu-hJ-w5w"/>
+                    </connections>
+                </tapGestureRecognizer>
+                <tapGestureRecognizer id="Rcp-9U-L3h">
+                    <connections>
+                        <action selector="didTapPhoto:" destination="vXZ-lx-hvc" id="6OK-41-loQ"/>
+                    </connections>
+                </tapGestureRecognizer>
+                <tapGestureRecognizer id="3iV-U4-V0r">
+                    <connections>
+                        <action selector="didTapPhoto:" destination="vXZ-lx-hvc" id="jEj-sQ-L9c"/>
+                    </connections>
+                </tapGestureRecognizer>
+                <tapGestureRecognizer id="mS4-te-bLq">
+                    <connections>
+                        <action selector="didTapPhoto:" destination="vXZ-lx-hvc" id="bsZ-ej-Swh"/>
+                    </connections>
+                </tapGestureRecognizer>
+                <tapGestureRecognizer id="syC-nn-PlX">
+                    <connections>
+                        <action selector="didTapPhoto:" destination="vXZ-lx-hvc" id="sJd-Yf-BMd"/>
+                    </connections>
+                </tapGestureRecognizer>
             </objects>
+            <point key="canvasLocation" x="162" y="406"/>
+        </scene>
+        <!--Photo View Controller-->
+        <scene sceneID="H4C-JB-1wp">
+            <objects>
+                <viewController id="e3P-Gm-cZj" customClass="PhotoViewController" customModule="FacebookFeed" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="kvH-gU-X1N">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" id="F8Y-c7-HNr">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <subviews>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" id="yvG-J7-Zii">
+                                        <rect key="frame" x="0.0" y="58" width="320" height="452"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    </imageView>
+                                    <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" image="photo_actions" id="SLB-eX-6Sd">
+                                        <rect key="frame" x="0.0" y="522" width="320" height="44"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                    </imageView>
+                                    <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" image="doneButton" id="ltp-3p-HV7">
+                                        <rect key="frame" x="253" y="25" width="51" height="27"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                    </imageView>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="JEC-Gg-KAW">
+                                        <rect key="frame" x="253" y="22" width="51" height="30"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <state key="normal">
+                                            <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="didTapDismiss:" destination="e3P-Gm-cZj" eventType="touchUpInside" id="rZb-a3-xt8"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                            </scrollView>
+                        </subviews>
+                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <connections>
+                        <outlet property="doneButton" destination="JEC-Gg-KAW" id="VcK-Su-4nw"/>
+                        <outlet property="imageView" destination="yvG-J7-Zii" id="UjL-ct-5v5"/>
+                        <outlet property="scrollView" destination="F8Y-c7-HNr" id="w4u-cI-gi0"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="QPk-u6-JKY" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="544" y="406"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="doneButton" width="51" height="27"/>
+        <image name="home_feed" width="320" height="1438"/>
+        <image name="photo_actions" width="320" height="44"/>
+        <image name="wedding1" width="320" height="480"/>
+        <image name="wedding2" width="480" height="320"/>
+        <image name="wedding3" width="480" height="320"/>
+        <image name="wedding4" width="480" height="320"/>
+        <image name="wedding5" width="480" height="320"/>
+    </resources>
+    <simulatedMetricsContainer key="defaultSimulatedMetrics">
+        <simulatedStatusBarMetrics key="statusBar"/>
+        <simulatedOrientationMetrics key="orientation"/>
+        <simulatedScreenMetrics key="destination" type="retina4"/>
+    </simulatedMetricsContainer>
 </document>
