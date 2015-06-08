@@ -29,7 +29,7 @@ class FeedViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        scrollView.contentSize = CGSize(width: 320, height: 568)
+        scrollView.contentSize = CGSize(width: 320, height: 1400)
         
         // Do any additional setup after loading the view.
         

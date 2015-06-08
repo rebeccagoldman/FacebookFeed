@@ -44,17 +44,18 @@ class ImageTransition: BaseTransition {
         feedViewController = toViewController as! FeedViewController
         photoViewController = fromViewController as! PhotoViewController
         
+    
         var destinationImageFrame = feedViewController.selectedImageView.frame
-        feedViewController.selectedImageView.frame = photoViewController.imageView.frame
+        var photoPosition = self.photoViewController.currentCenter
+        self.feedViewController.selectedImageView.bounds = photoPosition
+
+        feedViewController.selectedImageView.frame = self.photoViewController.imageView.frame
         
-        fromViewController.view.alpha = 1
-        
-        
-        
+        fromViewController.view.alpha = photoViewController.scrollView.alpha
         
         UIView.animateWithDuration(0.2, animations: {
             fromViewController.view.alpha = 0
-            
+
             self.feedViewController.selectedImageView.frame = destinationImageFrame
 
             
